@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>銀座 雅 - MIYABI | 日本料理の真髄</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ナビゲーション -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-jp">雅</span>
+                <span class="logo-en">MIYABI</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#concept">コンセプト</a></li>
+                <li><a href="#menu">お料理</a></li>
+                <li><a href="#chef">料理長</a></li>
+                <li><a href="#interior">空間</a></li>
+                <li><a href="#reservation">ご予約</a></li>
+                <li><a href="#access">アクセス</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="メニュー">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ヒーローセクション -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">Since 1968</p>
+            <h1 class="hero-title">
+                <span class="title-jp">四季の移ろいを、一皿に。</span>
+            </h1>
+            <p class="hero-description">
+                銀座の静謐な空間で、<br>
+                日本料理の真髄をお届けいたします。
+            </p>
+            <a href="#reservation" class="hero-btn">ご予約はこちら</a>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <!-- コンセプト -->
+    <section id="concept" class="concept">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Concept</span>
+                <h2 class="section-title">想い</h2>
+            </div>
+            <div class="concept-content">
+                <div class="concept-text">
+                    <p class="concept-lead">
+                        半世紀以上にわたり、<br>
+                        私たちは日本料理の本質を<br>
+                        追求し続けてまいりました。
+                    </p>
+                    <p>
+                        旬の食材が持つ本来の美味しさを最大限に引き出し、
+                        日本の四季折々の風情を一皿一皿に込めております。
+                        伝統の技法を守りながらも、時代とともに進化する味わいを
+                        お客様にお届けすることが、私たちの使命です。
+                    </p>
+                    <p>
+                        器、しつらえ、おもてなし。
+                        すべてにおいて妥協を許さない姿勢で、
+                        特別なひとときをお約束いたします。
+                    </p>
+                </div>
+                <div class="concept-image">
+                    <div class="image-frame">
+                        <div class="placeholder-image concept-img">
+                            <span>繊細な日本料理の盛り付け</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- メニュー -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Menu</span>
+                <h2 class="section-title">お料理</h2>
+            </div>
+            <p class="menu-intro">
+                その日最も良い状態の食材を吟味し、<br>
+                お客様のためだけの一皿をお仕立ていたします。
+            </p>
+
+            <div class="menu-courses">
+                <div class="course-card">
+                    <div class="course-image">
+                        <div class="placeholder-image">
+                            <span>懐石料理</span>
+                        </div>
+                    </div>
+                    <div class="course-info">
+                        <h3 class="course-name">懐石コース「月」</h3>
+                        <p class="course-desc">
+                            先付、椀物、向付、焼物、煮物、<br>
+                            食事、水菓子　全8品
+                        </p>
+                        <p class="course-price">¥25,000<span>（税・サービス料別）</span></p>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <div class="placeholder-image">
+                            <span>特選懐石</span>
+                        </div>
+                    </div>
+                    <div class="course-info">
+                        <h3 class="course-name">特選懐石「花」</h3>
+                        <p class="course-desc">
+                            八寸、先付、椀物、向付、焼物、<br>
+                            強肴、煮物、食事、水菓子　全10品
+                        </p>
+                        <p class="course-price">¥38,000<span>（税・サービス料別）</span></p>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <div class="placeholder-image">
+                            <span>おまかせ</span>
+                        </div>
+                    </div>
+                    <div class="course-info">
+                        <h3 class="course-name">料理長おまかせ「雅」</h3>
+                        <p class="course-desc">
+                            その日の最上の食材を用い、<br>
+                            料理長が心を込めてお仕立ていたします。
+                        </p>
+                        <p class="course-price">¥55,000〜<span>（税・サービス料別）</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <p class="menu-note">
+                ※ 食材アレルギーや苦手な食材がございましたら、<br>
+                ご予約時にお申し付けください。
+            </p>
+        </div>
+    </section>
+
+    <!-- シェフ紹介 -->
+    <section id="chef" class="chef">
+        <div class="container">
+            <div class="chef-content">
+                <div class="chef-image">
+                    <div class="image-frame">
+                        <div class="placeholder-image chef-img">
+                            <span>料理長の肖像</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="chef-info">
+                    <div class="section-header">
+                        <span class="section-label">Chef</span>
+                        <h2 class="section-title">料理長</h2>
+                    </div>
+                    <h3 class="chef-name">
+                        <span class="name-jp">高橋 誠一郎</span>
+                        <span class="name-en">Seiichiro Takahashi</span>
+                    </h3>
+                    <div class="chef-bio">
+                        <p>
+                            京都の老舗料亭で15年の修業を積み、
+                            フランス・パリの三ツ星レストランでも研鑽を重ねる。
+                        </p>
+                        <p>
+                            2010年より当店の料理長として就任。
+                            日本料理の伝統を守りながらも、
+                            現代の感性を取り入れた独自の世界観を追求。
+                        </p>
+                        <p>
+                            ミシュラン三ツ星を10年連続で獲得。
+                            「The World's 50 Best Restaurants」にもランクイン。
+                        </p>
+                    </div>
+                    <div class="chef-awards">
+                        <span class="award">ミシュラン三ツ星</span>
+                        <span class="award">農林水産省料理マスター</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 内装・空間 -->
+    <section id="interior" class="interior">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label">Interior</span>
+                <h2 class="section-title">空間</h2>
+            </div>
+            <p class="interior-intro">
+                数寄屋造りの意匠を現代に昇華させた空間。<br>
+                銀座の喧騒を忘れる、静謐なひとときを。
+            </p>
+
+            <div class="interior-gallery">
+                <div class="gallery-item large">
+                    <div class="placeholder-image">
+                        <span>カウンター席</span>
+                    </div>
+                    <p class="gallery-caption">カウンター席（8席）</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder-image">
+                        <span>個室「松」</span>
+                    </div>
+                    <p class="gallery-caption">個室「松」（2〜6名様）</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder-image">
+                        <span>個室「竹」</span>
+                    </div>
+                    <p class="gallery-caption">個室「竹」（2〜4名様）</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder-image">
+                        <span>坪庭</span>
+                    </div>
+                    <p class="gallery-caption">四季を映す坪庭</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder-image">
+                        <span>エントランス</span>
+                    </div>
+                    <p class="gallery-caption">エントランス</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 予約 -->
+    <section id="reservation" class="reservation">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label">Reservation</span>
+                <h2 class="section-title">ご予約</h2>
+            </div>
+
+            <div class="reservation-content">
+                <div class="reservation-info">
+                    <div class="info-block">
+                        <h3>営業時間</h3>
+                        <p>
+                            昼の部　12:00 - 15:00（最終入店 13:00）<br>
+                            夜の部　18:00 - 23:00（最終入店 20:00）
+                        </p>
+                    </div>
+                    <div class="info-block">
+                        <h3>定休日</h3>
+                        <p>日曜日・祝日（不定休あり）</p>
+                    </div>
+                    <div class="info-block">
+                        <h3>お電話でのご予約</h3>
+                        <p class="phone-number">03-1234-5678</p>
+                        <p class="phone-note">受付時間 10:00 - 18:00</p>
+                    </div>
+                    <div class="info-block">
+                        <h3>ご予約について</h3>
+                        <ul class="reservation-notes">
+                            <li>完全予約制となっております</li>
+                            <li>ご予約は2ヶ月前の同日より承ります</li>
+                            <li>キャンセルは前日の18時までにお願いいたします</li>
+                            <li>当日キャンセルはキャンセル料100%を申し受けます</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <form class="reservation-form" id="reservationForm">
+                    <h3>オンライン予約</h3>
+                    <div class="form-group">
+                        <label for="name">お名前 <span class="required">必須</span></label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">メールアドレス <span class="required">必須</span></label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">電話番号 <span class="required">必須</span></label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">ご希望日 <span class="required">必須</span></label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">お時間</label>
+                            <select id="time" name="time">
+                                <option value="lunch">昼の部（12:00〜）</option>
+                                <option value="dinner">夜の部（18:00〜）</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="guests">人数 <span class="required">必須</span></label>
+                            <select id="guests" name="guests" required>
+                                <option value="">選択してください</option>
+                                <option value="1">1名</option>
+                                <option value="2">2名</option>
+                                <option value="3">3名</option>
+                                <option value="4">4名</option>
+                                <option value="5">5名</option>
+                                <option value="6">6名以上</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="course">コース</label>
+                            <select id="course" name="course">
+                                <option value="tsuki">懐石コース「月」</option>
+                                <option value="hana">特選懐石「花」</option>
+                                <option value="miyabi">料理長おまかせ「雅」</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="requests">ご要望・アレルギー等</label>
+                        <textarea id="requests" name="requests" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">予約を申し込む</button>
+                    <p class="form-note">
+                        ※ ご予約確定後、確認のお電話をさせていただく場合がございます。
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- アクセス -->
+    <section id="access" class="access">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label">Access</span>
+                <h2 class="section-title">アクセス</h2>
+            </div>
+
+            <div class="access-content">
+                <div class="access-info">
+                    <div class="info-item">
+                        <h3>住所</h3>
+                        <p>
+                            〒104-0061<br>
+                            東京都中央区銀座6-10-1<br>
+                            銀座雅ビル 3F
+                        </p>
+                    </div>
+                    <div class="info-item">
+                        <h3>最寄り駅</h3>
+                        <p>
+                            東京メトロ銀座線・日比谷線・丸ノ内線<br>
+                            「銀座駅」A3出口より徒歩3分
+                        </p>
+                        <p>
+                            JR「有楽町駅」銀座口より徒歩5分
+                        </p>
+                    </div>
+                </div>
+                <div class="access-map">
+                    <div class="map-placeholder">
+                        <span>Google Map</span>
+                        <p>銀座6丁目</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-jp">雅</span>
+                        <span class="logo-en">MIYABI GINZA</span>
+                    </div>
+                    <p class="footer-tagline">日本料理の真髄</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#concept">コンセプト</a>
+                    <a href="#menu">お料理</a>
+                    <a href="#chef">料理長</a>
+                    <a href="#interior">空間</a>
+                    <a href="#reservation">ご予約</a>
+                    <a href="#access">アクセス</a>
+                </div>
+                <div class="footer-contact">
+                    <p>ご予約・お問い合わせ</p>
+                    <p class="footer-phone">03-1234-5678</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 銀座 雅 -MIYABI-. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
