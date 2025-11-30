@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Le Jardin Étoilé - 東京の中心に位置するエレガントなフレンチレストラン。最高級の料理と洗練された雰囲気をお楽しみください。">
+    <meta name="keywords" content="フレンチレストラン, 高級レストラン, 東京, ファインダイニング, グルメ">
+    <title>Le Jardin Étoilé | 高級フレンチレストラン</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <a href="#" class="logo">Le Jardin Étoilé</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">ホーム</a></li>
+                <li><a href="#about">コンセプト</a></li>
+                <li><a href="#chef">シェフ</a></li>
+                <li><a href="#menu">メニュー</a></li>
+                <li><a href="#gallery">ギャラリー</a></li>
+                <li><a href="#reservation">予約</a></li>
+                <li><a href="#contact">アクセス</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="メニュー">
+                ☰
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Le Jardin Étoilé</h1>
+            <p class="hero-subtitle">星の庭園</p>
+            <div class="hero-divider"></div>
+            <p>究極の美食体験と洗練された空間が織りなす、忘れられないひととき</p>
+            <br>
+            <a href="#reservation" class="cta-button">ご予約はこちら</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about scroll-reveal" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">コンセプト</h2>
+                <p class="section-subtitle">Our Philosophy</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>究極の美食体験への誘い</h3>
+                    <p>Le Jardin Étoilé（ル・ジャルダン・エトワレ）は、フランスの伝統的な料理技法と日本の繊細な食材が融合した、唯一無二のガストロノミー体験をご提供いたします。</p>
+                    <p>「星の庭園」という名の通り、私たちのレストランは、まるで夜空に輝く星々のように、一皿一皿が輝きを放つ特別な場所です。厳選された最高級の食材、熟練のシェフによる芸術的な調理、そして洗練された空間——すべてが調和し、忘れられない体験を創り出します。</p>
+                    <p>季節の移ろいを大切にし、その時々で最も美味しい食材を使用することで、訪れるたびに新しい発見と感動をお届けします。</p>
+                </div>
+                <div class="about-image"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chef Section -->
+    <section class="chef scroll-reveal" id="chef">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">シェフ紹介</h2>
+                <p class="section-subtitle">Our Chef</p>
+            </div>
+            <div class="chef-content">
+                <div class="chef-image"></div>
+                <div class="chef-info">
+                    <h3>ピエール・デュボワ</h3>
+                    <p class="chef-title">Executive Chef</p>
+                    <p>パリの三ツ星レストラン「L'Astrance」で10年の修行を積んだ後、日本の食文化に魅了され来日。京都の老舗料亭で和食の技術を学び、フレンチと和の融合という独自のスタイルを確立しました。</p>
+                    <p>「料理は単なる栄養ではなく、芸術であり、物語です」というピエールの哲学のもと、一皿一皿に情熱と創造性を注ぎ込んでいます。彼の料理は、視覚的な美しさと味わいの深さが完璧に調和し、ゲストに感動的な体験を提供します。</p>
+                    <p>2019年、Le Jardin Étoiléのオープンと同時にエグゼクティブシェフに就任。翌年にはミシュラン二つ星を獲得し、国内外から高い評価を受けています。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu scroll-reveal" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">メニュー</h2>
+                <p class="section-subtitle">Our Menu</p>
+            </div>
+            
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-menu="dinner">ディナーコース</button>
+                <button class="menu-tab" data-menu="lunch">ランチコース</button>
+                <button class="menu-tab" data-menu="wine">ワイン</button>
+            </div>
+
+            <!-- Dinner Menu -->
+            <div class="menu-content active" id="dinner">
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>シェフおまかせコース</h4>
+                        <span class="menu-item-price">¥28,000</span>
+                    </div>
+                    <p>季節の食材を活かした全8品のコース。シェフが厳選した旬の味覚をお楽しみいただけます。</p>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>プレミアムコース</h4>
+                        <span class="menu-item-price">¥42,000</span>
+                    </div>
+                    <p>トリュフ、キャビア、フォアグラなど最高級食材を使用した全10品の贅沢なコース。</p>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>ベジタリアンコース</h4>
+                        <span class="menu-item-price">¥22,000</span>
+                    </div>
+                    <p>野菜の可能性を最大限に引き出した、美しく繊細な全7品のコース。</p>
+                </div>
+            </div>
+
+            <!-- Lunch Menu -->
+            <div class="menu-content" id="lunch">
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>ランチコース A</h4>
+                        <span class="menu-item-price">¥8,000</span>
+                    </div>
+                    <p>前菜、メイン、デザートの全3品。気軽にフレンチを楽しみたい方におすすめです。</p>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>ランチコース B</h4>
+                        <span class="menu-item-price">¥12,000</span>
+                    </div>
+                    <p>前菜2品、メイン、デザートの全4品。本格的なフレンチをランチタイムに。</p>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>週末限定スペシャル</h4>
+                        <span class="menu-item-price">¥15,000</span>
+                    </div>
+                    <p>週末限定の特別メニュー。シェフの創作料理を含む全5品のコース。</p>
+                </div>
+            </div>
+
+            <!-- Wine Menu -->
+            <div class="menu-content" id="wine">
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>ワインペアリング</h4>
+                        <span class="menu-item-price">¥12,000</span>
+                    </div>
+                    <p>ソムリエが料理に合わせて厳選した5種類のワインをご提供いたします。</p>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>プレミアムペアリング</h4>
+                        <span class="menu-item-price">¥25,000</span>
+                    </div>
+                    <p>グランクリュを中心とした希少なヴィンテージワインのペアリング。</p>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>シャンパーニュセレクション</h4>
+                        <span class="menu-item-price">¥18,000〜</span>
+                    </div>
+                    <p>厳選された名門メゾンのシャンパーニュを豊富に取り揃えております。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery scroll-reveal" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">ギャラリー</h2>
+                <p class="section-subtitle">Gallery</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+                <div class="gallery-item"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservation scroll-reveal" id="reservation">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">ご予約</h2>
+                <p class="section-subtitle">Reservation</p>
+            </div>
+            <form class="reservation-form" id="reservationForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">お名前 *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">メールアドレス *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">電話番号 *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">人数 *</label>
+                        <select id="guests" name="guests" required>
+                            <option value="">選択してください</option>
+                            <option value="1">1名</option>
+                            <option value="2">2名</option>
+                            <option value="3">3名</option>
+                            <option value="4">4名</option>
+                            <option value="5">5名</option>
+                            <option value="6">6名以上</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date">ご希望日 *</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">ご希望時間 *</label>
+                        <select id="time" name="time" required>
+                            <option value="">選択してください</option>
+                            <option value="12:00">12:00</option>
+                            <option value="12:30">12:30</option>
+                            <option value="13:00">13:00</option>
+                            <option value="18:00">18:00</option>
+                            <option value="18:30">18:30</option>
+                            <option value="19:00">19:00</option>
+                            <option value="19:30">19:30</option>
+                            <option value="20:00">20:00</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">ご要望・アレルギー等</label>
+                    <textarea id="message" name="message" rows="4" placeholder="アレルギーや特別なご要望がございましたらご記入ください"></textarea>
+                </div>
+                <button type="submit" class="submit-button">予約を送信</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact scroll-reveal" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">アクセス</h2>
+                <p class="section-subtitle">Access</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <h3>住所</h3>
+                    <p>〒150-0001<br>東京都渋谷区神宮前6-12-18<br>エトワレビル 5F</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📞</div>
+                    <h3>お電話</h3>
+                    <p>予約専用: 03-1234-5678<br>営業時間: 11:30-15:00 / 18:00-23:00<br>定休日: 月曜日</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">🚇</div>
+                    <h3>アクセス</h3>
+                    <p>表参道駅 A1出口より徒歩3分<br>明治神宮前駅 7番出口より徒歩5分<br>駐車場: 提携駐車場あり</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Le Jardin Étoilé</div>
+            <div class="social-links">
+                <a href="#" aria-label="Instagram">📷</a>
+                <a href="#" aria-label="Facebook">👥</a>
+                <a href="#" aria-label="Twitter">🐦</a>
+            </div>
+            <p class="footer-text">&copy; 2024 Le Jardin Étoilé. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
